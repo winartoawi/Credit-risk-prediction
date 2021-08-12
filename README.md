@@ -18,28 +18,40 @@ Random forest is a supervised machine learning algorithm that took the concept o
 XGBoost is a supervised machine learning algorithm that is an enhancement of a tree-based algorithm. XGBoost model is developed based on a gradient boosting framework of which the models can reduce variance and bias due to the bagging and boosting concepts. Extreme Gradient Boosting is an advanced implementation of gradient boosting and can be used for both classification and regression purposes. 
 
 
-Data exploratory 
-
+# Data exploratory 
+There are 2 continuous attribute values and discrete attribute for the rest, whereas attribute class mostly are nominal classes and interval.
 ![image](https://user-images.githubusercontent.com/43923087/129149543-d9131fc0-8d02-432b-ad2b-f351d24a68a1.png)
 
 Data structure
+The 11 variables data type are listed down where majority if the datatype consists of integer, number and factor for target variable.
 
 ![image](https://user-images.githubusercontent.com/43923087/129151444-348c30c4-697e-4a3d-95c6-b14bf2c13108.png)
 
-Histogram plot 
-
-![image](https://user-images.githubusercontent.com/43923087/129152183-5d0f58f0-9ca3-440e-8d8f-177c9fbb2656.png)
-
-
 
 Target variable data imbalances
+The ratio between both classes shows an extreme gap by 93:6 ratio of 139 974 to 10 026 observations respectively.
 
 ![image](https://user-images.githubusercontent.com/43923087/129151631-f79ce2e4-c22d-47a1-85ca-80bb3aba3c9d.png)
 
 Collinearity analysis
+high collinearity between number of times of late payment in 60 – 89 days and number of times of late payment in 90 days, therefore 1 of the variables will be removed and proceed to model developmen
 
 ![image](https://user-images.githubusercontent.com/43923087/129153653-c94f9608-c4fe-40f5-afae-517d9e695888.png)
 
+
+# Results
+Training Result
+
+![image](https://user-images.githubusercontent.com/43923087/129167511-4c747a39-1faf-4a98-99da-b04e3526aef6.png)
+
+Test Result
+
+![image](https://user-images.githubusercontent.com/43923087/129167523-0e710863-263d-441e-8626-10b5c6cb34b4.png)
+
+ROC Curve 
+The ROC curve of which by observations the XGBoost ROC has a wider curve closed to the true positive rate among others with AUC of 0.847.
+
+![image](https://user-images.githubusercontent.com/43923087/129167280-eb779d7e-bd0d-4487-995a-6045e28c3f3c.png)
 
 
 # Reference
