@@ -1,6 +1,7 @@
 # Machine-learning-Credit-risk-prediction
 
 In the financial firms, credit or loan providers will apply a credit scoring assessment to evaluate the credit risk for their clients, ensuring the debt to be repaid. 
+
 The credit risk assessment is an essential tool helping lenders in making a decision ensuring profitability in granting credit/loan. 
 
 The proposed system consists of three types of predictive models below, to identify which clients are more likely to experience a financial crisis in the next two years. 
@@ -9,6 +10,7 @@ The proposed system consists of three types of predictive models below, to ident
 - XGBoost
 
 The development of the proposed model will aid financial firm’s decision making for credit granting with the help of risk management – credit risk. 
+
 The dataset used in this project will be based on a kaggle dataset credit-risk from this link https://www.kaggle.com/c/GiveMeSomeCredit/overview
 
 **Input** - Numerical variables (client`s background information e.g. no of times late, no of credit cards, etc)
@@ -59,21 +61,21 @@ The ratio between both classes shows an extreme gap by 93:6 ratio of 139 974 to 
 ![image](https://user-images.githubusercontent.com/43923087/129151631-f79ce2e4-c22d-47a1-85ca-80bb3aba3c9d.png)
 
 # Collinearity analysis
-high collinearity between number of times of late payment in 60 – 89 days and number of times of late payment in 90 days, therefore 1 of the variables will be removed and proceed to model developmen
+high collinearity between number of times of late payment in 60 – 89 days and number of times of late payment in 90 days, therefore 1 of the variables will be removed and proceed to model development
 
 ![image](https://user-images.githubusercontent.com/43923087/129153653-c94f9608-c4fe-40f5-afae-517d9e695888.png)
 
 
 # Results
-Training Result
+**Training Result**
 
 ![image](https://user-images.githubusercontent.com/43923087/129167511-4c747a39-1faf-4a98-99da-b04e3526aef6.png)
 
-Test Result
+**Test Result**
 
 ![image](https://user-images.githubusercontent.com/43923087/129167523-0e710863-263d-441e-8626-10b5c6cb34b4.png)
 
-ROC Curve 
+# ROC Curve 
 The ROC curve of which by observations the XGBoost ROC has a wider curve closed to the true positive rate among others with AUC of 0.847.
 
 ![image](https://user-images.githubusercontent.com/43923087/129167280-eb779d7e-bd0d-4487-995a-6045e28c3f3c.png)
