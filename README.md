@@ -14,12 +14,15 @@ The dataset used in this project will be based on a kaggle dataset credit-risk f
 
 # Model background
 - k–Nearest Neighbor 
+
 K-Nearest Neighbor is a supervised machine learning algorithm that uses for regression or classification purposes whereby the model predicts the classification of a new data based on the nearest neighbor data points using similarity measures (distance function). In the past research, many models of kNN are used for financial credit scoring assessments due to its statistical pattern recognition Pandey et al. (2017). In this work kNN will be built with the implementation of 5-fold cross validations. 
 
 - Random Forest 
+
 Random forest is a supervised machine learning algorithm that took the concept of bagging and random subspace feature selection to merge individual decision tree Pandey et al. (2017). The use of random forest for credit risk model helps to significantly reduced the time spent on data management and data pre-processing steps, especially on a large-scale dataset.
 
 - XGBoost
+
 XGBoost is a supervised machine learning algorithm that is an enhancement of a tree-based algorithm. XGBoost model is developed based on a gradient boosting framework of which the models can reduce variance and bias due to the bagging and boosting concepts. Extreme Gradient Boosting is an advanced implementation of gradient boosting and can be used for both classification and regression purposes. 
 
 
