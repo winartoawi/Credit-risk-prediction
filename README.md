@@ -1,4 +1,4 @@
-# winartoawi-Machine-learning-Credit-risk-prediction
+# Machine-learning-Credit-risk-prediction
 
 In the financial firms, credit or loan providers will apply a credit scoring assessment to evaluate the credit risk for their clients, ensuring the debt to be repaid. 
 The credit risk assessment is an essential tool helping lenders in making a decision ensuring profitability in granting credit/loan. 
