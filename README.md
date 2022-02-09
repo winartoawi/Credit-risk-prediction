@@ -4,19 +4,19 @@ In the financial domain/firms, credit or loan providers will apply a credit scor
 The credit risk assessment is an essential tool helping lenders in making a decision ensuring profitability in granting credit/loan. 
 
 The proposed system consists of three types of predictive models below, to identify which clients are more likely to experience a financial crisis in the next two years. 
-- logistic regression (LR) 
-- Naïve Bayesian 
-- Artificial Neural Network (ANN) 
+- k-Nearest Neighbour  
+- Random Forest
+- XGBoost
 
 The proposed model will demonstrate the implementation of a pre-processing method to deal with missing values and unbalanced target classes due to the nature of confidentiality, further, integration of fine-tuning such as feature selection will be explored to produce the best combination of predictive performance. The development of the proposed model will aid financial firm’s decision making for credit granting with the help of risk management – credit risk. 
 The dataset used in this project will be based on a kaggle dataset credit-risk from this link https://www.kaggle.com/c/GiveMeSomeCredit/overview
 
 
 # Model background
-•	k–Nearest Neighbor (kNN)
+•	k–Nearest Neighbor 
 K-Nearest Neighbor is a supervised machine learning algorithm that uses for regression or classification purposes whereby the model predicts the classification of a new data based on the nearest neighbor data points using similarity measures (distance function). In the past research, many models of kNN are used for financial credit scoring assessments due to its statistical pattern recognition Pandey et al. (2017). In this work kNN will be built with the implementation of 5-fold cross validations. 
 
-•	Random Forest (RF)
+•	Random Forest 
 Random forest is a supervised machine learning algorithm that took the concept of bagging and random subspace feature selection to merge individual decision tree Pandey et al. (2017). The use of random forest for credit risk model helps to significantly reduced the time spent on data management and data pre-processing steps, especially on a large-scale dataset.
 
 •	XGBoost
