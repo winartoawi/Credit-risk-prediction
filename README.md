@@ -2,7 +2,12 @@
 
 In the financial domain/firms, credit or loan providers will apply a credit scoring assessment to evaluate the credit risk of the client, ensuring the debt to be repaid. 
 The credit risk assessment is an essential tool helping lenders in making a decision ensuring profitability in granting credit/loan. 
-The proposed system consists of three types of predictive models such as logistic regression (LR), Naïve Bayesian, and Artificial Neural Network (ANN) to identify which clients are more likely to experience a financial crisis in the next two years. 
+
+The proposed system consists of three types of predictive models below, to identify which clients are more likely to experience a financial crisis in the next two years. 
+- logistic regression (LR) 
+- Naïve Bayesian 
+- Artificial Neural Network (ANN) 
+
 The proposed model will demonstrate the implementation of a pre-processing method to deal with missing values and unbalanced target classes due to the nature of confidentiality, further, integration of fine-tuning such as feature selection will be explored to produce the best combination of predictive performance. The development of the proposed model will aid financial firm’s decision making for credit granting with the help of risk management – credit risk. 
 The dataset used in this project will be based on a kaggle dataset credit-risk from this link https://www.kaggle.com/c/GiveMeSomeCredit/overview
 
