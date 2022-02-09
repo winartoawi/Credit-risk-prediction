@@ -21,15 +21,25 @@ The proposed model will demonstrate the implementation of a pre-processing metho
 # Model background
 - **k–Nearest Neighbor**
 
-K-Nearest Neighbor is a supervised machine learning algorithm that uses for regression or classification purposes whereby the model predicts the classification of a new data based on the nearest neighbor data points using similarity measures (distance function). In the past research, many models of kNN are used for financial credit scoring assessments due to its statistical pattern recognition Pandey et al. (2017). In this work kNN will be built with the implementation of 5-fold cross validations. 
+K-Nearest Neighbor is a supervised machine learning algorithm that uses for regression or classification purposes whereby the model predicts the classification of a new data based on the nearest neighbor data points using similarity measures (distance function). 
+
+In the past research, many models of kNN are used for financial credit scoring assessments due to its statistical pattern recognition Pandey et al. (2017). 
+
+In this work kNN will be built with the implementation of 5-fold cross validations. 
 
 - **Random Forest**
 
-Random forest is a supervised machine learning algorithm that took the concept of bagging and random subspace feature selection to merge individual decision tree Pandey et al. (2017). The use of random forest for credit risk model helps to significantly reduced the time spent on data management and data pre-processing steps, especially on a large-scale dataset.
+Random forest is a supervised machine learning algorithm that took the concept of bagging and random subspace feature selection to merge individual decision tree Pandey et al. (2017). 
+
+The use of random forest for credit risk model helps to significantly reduced the time spent on data management and data pre-processing steps, especially on a large-scale dataset.
 
 - **XGBoost**
 
-XGBoost is a supervised machine learning algorithm that is an enhancement of a tree-based algorithm. XGBoost model is developed based on a gradient boosting framework of which the models can reduce variance and bias due to the bagging and boosting concepts. Extreme Gradient Boosting is an advanced implementation of gradient boosting and can be used for both classification and regression purposes. 
+XGBoost is a supervised machine learning algorithm that is an enhancement of a tree-based algorithm. 
+
+XGBoost model is developed based on a gradient boosting framework of which the models can reduce variance and bias due to the bagging and boosting concepts. 
+
+Extreme Gradient Boosting is an advanced implementation of gradient boosting and can be used for both classification and regression purposes. 
 
 
 # Data exploratory 
@@ -37,18 +47,18 @@ There are 2 continuous attribute values and discrete attribute for the rest, whe
 
 ![image](https://user-images.githubusercontent.com/43923087/129149543-d9131fc0-8d02-432b-ad2b-f351d24a68a1.png)
 
-Data structure
+# Data structure
 The 11 variables data type are listed down where majority if the datatype consists of integer, number and factor for target variable.
 
 ![image](https://user-images.githubusercontent.com/43923087/129151444-348c30c4-697e-4a3d-95c6-b14bf2c13108.png)
 
 
-Target variable data imbalances
+# Target variable data imbalances
 The ratio between both classes shows an extreme gap by 93:6 ratio of 139 974 to 10 026 observations respectively.
 
 ![image](https://user-images.githubusercontent.com/43923087/129151631-f79ce2e4-c22d-47a1-85ca-80bb3aba3c9d.png)
 
-Collinearity analysis
+# Collinearity analysis
 high collinearity between number of times of late payment in 60 – 89 days and number of times of late payment in 90 days, therefore 1 of the variables will be removed and proceed to model developmen
 
 ![image](https://user-images.githubusercontent.com/43923087/129153653-c94f9608-c4fe-40f5-afae-517d9e695888.png)
